@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Name generator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <label for="name">Name: </label><input type="text" id="name" placeholder="Input the name" value="Solo Learn" />
+        <label for="char">Design character: </label><input type="text" id="char" placeholder="Design character" value="#" maxlength="2" />
+        <label for="separator">Separator: </label> <input type="text" id="separator" placeholder="Separator" value="." maxlength="2" />
+        <button id="generator" onclick="generate();">Generate</button>
+        <button id="random_generator" onclick="generate(true);">Generate random design</button>
+        <button id="swap" onclick="swap();">Swap</button>
+        <button id="copy" onclick="copyText();">Copy to the clipboard</button>
+        <textarea id="board" readonly></textarea>
+
+
+       <footer>&#169;2023 by <a href="https://swarupinfotech.github.io/">SwarupInfotech</a></footer>
+    </body>
+</html>

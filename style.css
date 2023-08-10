@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(245,246,225);
+}
+label {
+    color: red;
+}
+input,textarea {
+    width: 96%;
+    margin: 7.5px 0px;
+    border: solid 1px darkorange;
+    border-radius: 3px;
+    color: darkorange;
+    padding: 0px 5px;
+}
+input {
+    height: 25px;
+}
+textarea {
+    line-height: 25px;
+    height: calc(100vh - 275px);
+}
+button {
+    background-color: orange;
+    color: white;
+    border: solid 1px orange;
+    border-radius: 5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 1.1em;
+    line-height: 1.1em;
+}
+footer{
+    background-color: darkkhaki;
+    color: black;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    text-decoration: none;
+}
